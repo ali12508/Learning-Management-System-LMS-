@@ -1,0 +1,623 @@
+<?php
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="Free Web tutorials">
+      <meta name="keywords" content="online academy, learning managemment system,lms,online study">
+    <meta http-equiv="refresh" content="100"> 
+    <title>Learning management System</title>
+
+    
+
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
+     <link href="css/venobox/venobox.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+       <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="Style.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"> 
+         <link rel="stylesheet" type="text/css" href="css/shortcodes/shortcodes.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+
+</head>
+
+ 
+<body data-spy="scroll" data-target=".navbar" data-offset="50"> 
+
+
+ <div id="loading-icon-bx"></div>
+
+
+  <!-- ======= Top Bar ======= -->
+   <section id="topbar" class="d-none d-lg-block">
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+      <i  class="fa fa-envelope "></i><a href="mailto:contact@example.com">contact@example.com</a>
+        <i class="fa fa-phone text-info"></i> +051 123456
+      </div>
+<!--       <div class="social-links">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="skype"><i class="fa fa-skype"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></i></a>
+      </div>
+ -->
+  <form class="form-inline" action="/action_page.php ">
+        <input style="border-radius: 20px; width: 60%;"   class="form-control " type="search" placeholder="Search here " aria-label="Search" name="search" size="35px"> 
+        <button style="border-radius: 56px; background-color: #E9725E; " class="btn  " type="submit">Search</button>     
+      </form> 
+   
+
+    </div> 
+
+  
+  </section>
+
+  <header>
+    <div class="container-fluid " >
+      <nav   class="navbar navbar-expand-lg navbar-fixed-top">
+         <h3 class="navbar-brand  wow bounceInLeft "  data-wow-delay="0.4s" >
+
+          <i class="fas fa-book-reader fa-2x mx-2  " ></i >Learning Management System</h3>
+         
+  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" 
+          aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-success"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+ 
+           <div class="mr-auto "></div> 
+          <ul class="navbar-nav wow fadeInUp " id="myDIV "  data-wow-delay="0.5s"" " >
+            <li class="nav-item ">
+              <a class="nav-link activ" href="#">  HOME
+               </a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#abou">Introduction</a>
+            </li>
+
+                <li class="nav-item "> 
+      <a class="nav-link " href="#course"  > Courses</a>
+    </li>
+    
+        
+
+    
+            <li class="nav-item">
+              <a class="nav-link" href="./login form/register.php">Registration</a>
+            </li>
+
+
+    
+    
+        <li class="nav-item">
+              <a class="nav-link" href=" ./Contact us/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-2 text-success font-weight-bold" href=" ./dashbord/index.php"><i class="fa fa-globe"></i>dashboard</a>
+            </li>
+
+            
+         
+          </ul>
+        </div>
+      </nav>
+    </div>
+   
+  </header>
+
+  
+
+
+ <div class="page-content bg-white">
+        <!-- inner page banner -->
+        <div class="page-banner ovbl-dark" style="background-image:url(images/lap.jpg);">
+            <div class="container">
+                <div class="page-banner-entry">
+                    <h1 class="text-white">Courses Details</h1>
+         </div>
+            </div>
+        </div>
+    <!-- Breadcrumb row -->
+    <div class="breadcrumb-row">
+      <div class="container">
+        <ul class="list-inline">
+          <li><a href="#">Home</a></li>
+          <li>Courses Details</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Breadcrumb row END -->
+        <!-- inner page banner END -->
+    <div class="content-block">
+            <!-- About Us -->
+      <div class="section-area section-sp1">
+                <div class="container">
+           <div class="row d-flex flex-row-reverse">
+            <div class="col-lg-3 col-md-4 col-sm-12 m-b30">
+              <div class="course-detail-bx">
+                <div class="course-price">
+                  <del>$190</del>
+                  <h4 class="price">$120</h4>
+                </div>  
+                <div class="course-buy-now text-center">
+                  <a href="#" class="btn  radius-xl text-uppercase">Buy Now This Courses</a>
+                </div>
+                <div class="teacher-bx">
+                  <div class="teacher-info">
+                    <div class="teacher-thumb">
+                      <img src="images/team-4.jpg" alt=""/>
+                    </div>
+                    <div class="teacher-name">
+                      <h5>DR. Bilal</h5>
+                      <span>Science Teacher</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="cours-more-info">
+                  <div class="review">
+                    <span>3 Review</span>
+                    <ul class="cours-star">
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="price categories">
+                    <span>Categories</span>
+                    <h5 class="text-primary">Frontend</h5>
+                  </div>
+                </div>
+                <div class="course-info-list scroll-page">
+                  <ul class="navbar">
+                    <li><a class="nav-link" href="#overview"><i class="ti-zip"></i>Overview</a></li>
+                    <li><a class="nav-link" href="#curriculum"><i class="ti-bookmark-alt"></i>Curriculum</a></li>
+                    <li><a class="nav-link" href="#instructor"><i class="ti-user"></i>Instructor</a></li>
+                    <li><a class="nav-link" href="#reviews"><i class="ti-comments"></i>Reviews</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-9 col-md-8 col-sm-12">
+              <div class="courses-post">
+                <div class="ttr-post-media media-effect">
+                  <a href="#"><img src="images/ai.jpeg" alt=""></a>
+                </div>
+                <div class="ttr-post-info">
+                  <div class="ttr-post-title ">
+                    <h2 class="post-title">Artficial Technology(AI)</h2>
+                  </div>
+                  <div class="ttr-post-text">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="courese-overview" id="overview">
+                <h4>Overview</h4>
+                <div class="row">
+                  <div class="col-md-12 col-lg-4">
+                    <ul class="course-features">
+                      <li><i class="ti-book"></i> <span class="label">Lectures</span> <span class="value">8</span></li>
+                      <li><i class="ti-help-alt"></i> <span class="label">Quizzes</span> <span class="value">1</span></li>
+                      <li><i class="ti-time"></i> <span class="label">Duration</span> <span class="value">60 hours</span></li>
+                      <li><i class="ti-stats-up"></i> <span class="label">Skill level</span> <span class="value">Beginner</span></li>
+                      <li><i class="ti-smallcap"></i> <span class="label">Language</span> <span class="value">English</span></li>
+                      <li><i class="ti-user"></i> <span class="label">Students</span> <span class="value">32</span></li>
+                      <li><i class="ti-check-box"></i> <span class="label">Assessments</span> <span class="value">Yes</span></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-12 col-lg-8">
+                    <h5 class="m-b5">Course Description</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <h5 class="m-b5">Certification</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <h5 class="m-b5">Learning Outcomes</h5>
+                    <ul class="list-checked primary">
+                      <li>Over 37 lectures and 55.5 hours of content!</li>
+                      <li>LIVE PROJECT End to End Software Testing Training Included.</li>
+                      <li>Learn Software Testing and Automation basics from a professional trainer from your own desk.</li>
+                      <li>Information packed practical training starting from basics to advanced testing techniques.</li>
+                      <li>Best suitable for beginners to advanced level users and who learn faster when demonstrated.</li>
+                      <li>Course content designed by considering current software testing technology and the job market.</li>
+                      <li>Practical assignments at the end of every session.</li>
+                      <li>Practical learning experience with live project work and examples.cv</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="m-b30" id="curriculum">
+                <h4>Curriculum</h4>
+                <ul class="curriculum-list">
+                    <li>
+                      <h5>First Level</h5>
+                      <ul>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Lesson 1.</span> Introduction to UI Design
+                          </div>
+                          <span>120 minutes</span>
+                        </li>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Lesson 2.</span> User Research and Design
+                          </div>
+                          <span>60 minutes</span>
+                        </li>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Lesson 3.</span> Evaluating User Interfaces Part 1
+                          </div>
+                          <span>85 minutes</span>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h5>Second Level</h5>
+                      <ul>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Lesson 1.</span> Prototyping and Design
+                          </div>
+                          <span>110 minutes</span>
+                        </li>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Lesson 2.</span> UI Design Capstone
+                          </div>
+                          <span>120 minutes</span>
+                        </li>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Lesson 3.</span> Evaluating User Interfaces Part 2
+                          </div>
+                          <span>120 minutes</span>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h5>Final</h5>
+                      <ul>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Part 1.</span> Final Test
+                          </div>
+                          <span>120 minutes</span>
+                        </li>
+                        <li>
+                          <div class="curriculum-list-box">
+                            <span>Part 2.</span> Online Test
+                          </div>
+                          <span>120 minutes</span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+              </div>
+              <div class="" id="instructor">
+                <h4>Instructor</h4>
+                <div class="instructor-bx">
+                  <div class="instructor-author">
+                    <img src="images/team-4.jpg" alt="">
+                  </div>
+                  <div class="instructor-info">
+                    <h6>Muhammad Ali </h6>
+                    <span>Professor</span>
+                      <ul class="list-inline d-flex justify-content-space-between ">
+
+                      <li><a href="#" class="btn sharp-sm facebook"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#" class="btn sharp-sm twitter"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#" class="btn sharp-sm linkedin"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#" class="btn sharp-sm google-plus"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                    <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                  </div>
+                </div>
+                <div class="instructor-bx">
+                  <div class="instructor-author">
+                    <img src="images/team-1.jpg" alt="">
+                  </div>
+                  <div class="instructor-info">
+                    <h6>Ahmed Ali </h6>
+                    <span>Professor</span>
+                    <ul class="list-inline d-flex justify-content-space-between ">
+                      <li><a href="#" class="btn sharp-sm facebook"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#" class="btn sharp-sm twitter"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#" class="btn sharp-sm linkedin"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#" class="btn sharp-sm google-plus"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                    <p class="m-b0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                  </div>
+                </div>
+              </div>
+              <div class="" id="reviews">
+                <h4>Reviews</h4>
+                
+                <div class="review-bx">
+                  <div class="all-review">
+                    <h2 class="rating-type">3</h2>
+                    <ul class="cours-star">
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li class="active"><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                    <span>3 Rating</span>
+                  </div>
+                  <div class="review-bar">
+                    <div class="bar-bx">
+                      <div class="side">
+                        <div>5 star</div>
+                      </div>
+                      <div class="middle">
+                        <div class="bar-container">
+                          <div class="bar-5" style="width:90%;"></div>
+                        </div>
+                      </div>
+                      <div class="side right">
+                        <div>150</div>
+                      </div>
+                    </div>
+                    <div class="bar-bx">
+                      <div class="side">
+                        <div>4 star</div>
+                      </div>
+                      <div class="middle">
+                        <div class="bar-container">
+                          <div class="bar-5" style="width:70%;"></div>
+                        </div>
+                      </div>
+                      <div class="side right">
+                        <div>140</div>
+                      </div>
+                    </div>
+                    <div class="bar-bx">
+                      <div class="side">
+                        <div>3 star</div>
+                      </div>
+                      <div class="middle">
+                        <div class="bar-container">
+                          <div class="bar-5" style="width:50%;"></div>
+                        </div>
+                      </div>
+                      <div class="side right">
+                        <div>120</div>
+                      </div>
+                    </div>
+                    <div class="bar-bx">
+                      <div class="side">
+                        <div>2 star</div>
+                      </div>
+                      <div class="middle">
+                        <div class="bar-container">
+                          <div class="bar-5" style="width:40%;"></div>
+                        </div>
+                      </div>
+                      <div class="side right">
+                        <div>110</div>
+                      </div>
+                    </div>
+                    <div class="bar-bx">
+                      <div class="side">
+                        <div>1 star</div>
+                      </div>
+                      <div class="middle">
+                        <div class="bar-container">
+                          <div class="bar-5" style="width:20%;"></div>
+                        </div>
+                      </div>
+                      <div class="side right">
+                        <div>80</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+            </div>
+        </div>
+    <!-- contact area END -->
+    
+
+
+
+
+
+
+
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe Our News letter for More Info</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+               street no B/1 <br>
+              Islamabad, Pakistan<br>
+               Quaid-e-Azam Road Karachi,pakistan <br>
+              <strong>Phone1:</strong> +051  12344 55<br>
+              <strong>Phone2:</strong> +021  12344 55<br>
+
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About Us</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-skype"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>LMS</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+ 
+        Designed by <a class="text-success">Hammad Nawaz</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="goTop"><i class="fas fa-angle-double-up"></i></a>
+
+
+
+
+
+                               <!--     Javascript Libraries -->
+
+
+
+     <script src="js/jquery-min.js"></script>
+    <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+      <script src="js/owl.carousel.js"></script>
+       <script src="js/wow.min.js"></script>
+
+       <!--Data Filter Js Files -->
+      <script src="js/counterup.min.js"></script>
+      <script src="js/isotope.pkgd.min.js"></script>
+      <script src="js/venobox.min.js"></script>
+      <!--Data Filter Files End -->
+
+        <script src="js/main.js"></script>
+         <script src="js/functions.js"></script>
+
+
+
+            <!-- fixed nav -->
+
+<!-- <script type="text/javascript">
+
+         // MENU
+    $('.navbar-collapse a').on('click',function(){
+      $(".navbar-collapse").collapse('hide');
+    });
+
+    $(window).scroll(function() {
+      if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+          } else {
+            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+          }
+    });
+
+</script> -->
+
+
+
+<!--  Counter section code  -->
+
+<script>
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 40000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+</script>
+              
+
+         
+
+
+              
+
+              <!-- Animations Initializer -->
+
+ <script>
+    new WOW().init();
+ 
+    </script>
+
+
+</body>
+</html>

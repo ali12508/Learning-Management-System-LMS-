@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hhhh</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+
+
+
+
+
+	.box{
+
+		text-align: center;
+		border:1px solid rgba(0,0,0,0.3);
+		border-radius: 2px;
+		transition: 0.3s ease;
+	}
+	.box:hover{
+		background: #16c9f6;
+	}
+		.box:hover p{
+		color: white;
+	}
+	.carousel-indicators{
+		position: absolute;
+		right: 0;
+		bottom: -60px!important;
+	}
+	.carousel-indicators li{
+		background-color: red;
+	}
+	.carousel-control-prev{
+		color: red!important;
+
+	}
+	.box a{
+		position: relative;
+	}
+ .box a img{
+ 	width: 100px;
+ 	height: 100px;
+ 	border-radius: 50%;
+ 	margin-top: 20px;
+ }
+ .box a:after{
+ 	content: "\f10d";
+ 	font-family: fontAwesome;
+ 	width: 40px;
+ 	height: 40px;
+ 	border-radius: 50%;
+ 	background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0%, #16c9f6 100%)
+ 	color:white;
+ 	position: absolute;
+ 	top: 120%;
+ 	left: 70%;
+ 	display: flex;
+ 	justify-content:center;
+ 	align-items: center;
+ }
+ .box h4{
+ 	font-size: 15px;
+ 	font-weight: 700;
+ 	margin-bottom: 10px;
+ 	color: purple;
+ }
+ .car{
+  margin: 30px 23%;
+ }
+.intro{
+  width: 240px;
+  height: 400px;
+  background: green;
+}
+.imag{
+  border-radius: 50%
+}
+</style>
+</head>
+<body style="background-color:;">
+
+
+
+
+
+  <div class="car  wow fadeInDown">
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="1" class="active"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="wow bounceInRight" src="s1.jpg" alt="Los Angeles" width="100%" style="padding-top:15px; padding-bottom: 15px;"  >
+      
+    </div>
+    <div class="carousel-item">
+      <img src="s1.jpg" alt="Chicago" width="100%"   style="padding-top:15px; padding-bottom: 15px;"   >
+      <div class="carousel-caption">
+        <h3 style="color: blue; font-family: serif; font-size: 50px;">Top Experts</h3>
+        
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="s1.jpg" alt="New York" width="100%" style="padding-top:15px; padding-bottom: 15px;"  >
+      <div class="carousel-caption">
+        <h3 style="color: red; font-family: serif; font-size: 50px;">Best Instructors</h3>
+       
+      </div>   
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+</div>
+</div>
+
+<!--  -->
+
+<div class="row">
+  <div class="col-lg-6 col-md-6">
+    <img src="1.jpg"  class=" img-fluid img-circle imag  ">
+  </div>
+
+  <div class="col-lg-6 col-md-6 intro">
+    <h2 class="text-center">Our Mission</h2>
+    <ul style="list-style: none;" class="text-left my-4">
+      <li>Portfolio sites offer workflows for a variety of purposes  </li>
+      <li>Portfolio sites offer workflows for a variety of purposes  </li>
+      <li>Portfolio sites offer workflows for a variety of purposes  </li>
+      <li>Portfolio sites offer workflows for a variety of purposes  </li>
+      <li>Portfolio sites offer workflows for a variety of purposes  </li>
+      <li>Portfolio sites offer workflows for a variety of purposes  </li>
+    </ul>
+    
+  </div>
+</div>
+
+<div class="m-4">
+
+<!-- <div class="d-flex justify-content-start">home</div>
+<div class="d-flex justify-content-end">home</div>
+<div class="d-flex justify-content-center">home</div>
+<div class="d-flex justify-content-between">home</div>
+<div class="d-flex justify-content-around">home</div>
+ -->
+
+
+           <!------------------- justift content starts ---------------->
+
+<div class=" m-3 d-flex bg-danger">
+  <div class="p-3">Flex item</div>
+  <div class="p-3">Flex item</div>
+  <div class="p-3">Flex item</div>
+</div>
+
+
+
+<div class=" m-3 d-flex justify-content-center bg-primary">
+	  <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+
+</div>
+
+
+<div class=" m-3 d-flex justify-content-between bg-success">
+	  <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+
+</div>
+
+<div class=" m-3 d-flex justify-content-start bg-secondary">
+	  <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+
+</div>
+
+
+<div class=" m-3 d-flex justify-content-end bg-info">
+	  <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+
+</div>
+
+
+<div class=" m-3 d-flex justify-content-around bg-success">
+	  <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+
+</div>
+
+           <!------------------- justift content endss ---------------->
+
+           <!------------------- flex wrap starts ---------------->
+
+
+<div class=" m-3 d-flex  bg-danger flex-nowrap">
+  <div class="order-3 p-3">First flex item</div>
+  <div class="order-2 p-3">Second flex item</div>
+  <div class="order-1 p-3">Third flex item</div>
+</div>
+
+
+<div class=" bg-success d-flex  flex-wrap">
+	  <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+       <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+         <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+         <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+    
+</div>
+
+<div class="m-4 bg-secondary  d-flex align-content-center flex-wrap">
+	
+   <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+       <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+         <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+         <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+       <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+
+
+
+</div>
+
+
+           <!------------------- flex wrap starts ---------------->
+
+            <!------------------- align items starts ---------------->
+
+<!-- 
+<div class="d-flex align-items-start">...</div>
+<div class="d-flex align-items-end">...</div>
+<div class="d-flex align-items-center">...</div>
+<div class="d-flex align-items-baseline">...</div>
+<div class="d-flex align-items-stretch">...</div> -->
+
+<div class="d-flex bg-danger align-items-start">
+
+<div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+       <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+     <div class="p-3">Flex item</div>
+         <div class="p-3">Flex item</div>
+	    <div class="p-3">Flex item</div>
+
+         </div>
+
+
+
+
+<div class="d-flex  m-4 bg-danger align-items-baseline">
+
+<div class="p-3">align item</div>
+	    <div class="p-3">align item</div>
+     <div class="p-3">align item</div>
+       <div class="p-3">align item</div>
+	    <div class="p-3">align item</div>
+     <div class="p-3">align item</div>
+         <div class="p-3">align item</div>
+	    <div class="p-3">align item</div>
+
+         </div>
+
+            <!------------------- align items starts ---------------->
+
+               <!---------- align self ---------------->
+
+<!-- <div class="align-self-start">Aligned flex item</div>
+<div class="align-self-end">Aligned flex item</div>
+<div class="align-self-center">Aligned flex item</div>
+<div class="align-self-baseline">Aligned flex item</div>
+<div class="align-self-stretch">Aligned flex item</div> -->
+ 
+
+
+
+
+
+             <!------------------- align items endss ---------------->
+
+        <!------------------- flex row ,reverse starts---------------->
+             <div class=" bg-secondary m-4 d-flex flex-row">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class=" bg-dark m-4 d-flex flex-row-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+
+
+        <!------------------- flex column,reverse starts---------------->
+
+<div class=" bg-danger m-4 d-flex flex-column">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class="bg-secondary d-flex flex-column-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+
+
+<div  class="d-inline-flex p-2 bg-primary m-4">I'm an inline flexbox container!</div>
+
+
+<h3>justify-content: longer word: horizontal alignment( x-axis)</h3>
+<h3>align-items: shorter word: vertical alignment(y-axis)</h3>
+
+
+
+</body>
+</html>
